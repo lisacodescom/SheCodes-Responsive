@@ -10,6 +10,7 @@
 <style>
 .title{
     text-align: center;
+    padding-bottom: 50px;
 }
 .hi{
     font-size: 48px
@@ -55,6 +56,26 @@ a:-webkit-any-link {
     background-color: var(--primary-color);
     border:1px solid var(--box-shadow) ;
 }
+.primary-link
+{
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.mt-5 {
+    margin-top: 3rem!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.row{
+padding-bottom: 40px;
+}
 </style>
 <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -67,9 +88,9 @@ a:-webkit-any-link {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="about.html">About me</a>
-        <a class="nav-link" href="#">Contact me</a>
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="about.html" target="_self">About me</a>
+        <a class="nav-link" href="about.html #mail">Contact me</a>
       </div>
     </div>
   </div>
@@ -79,9 +100,48 @@ a:-webkit-any-link {
     <div class="name">Lisa!</div>
     <div class="info">Front-end developer, based in America</div>
     <div class="link">
-        <a class="contact" href="about.html">Contact Me</a>
+        <a class="contact" href="about.html #mail">Contact Me</a>
         <a class="about-me" href="about.html" target="_blank">About Me</a>
     </div>
+ </div>
+ <div class="container">
+    <div class="row">
+    <div class="col-md-6">
+        <img src="https://31ukq.codesandbox.io/images/yoga.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-6">
+        <h2>Yoga App</h2>
+       <p>Yoga is a mind and body practice that can build strength and flexibility. It may also help manage pain and reduce stress. Various styles of yoga combine physical postures, breathing techniques, and meditation1. If you are a beginner, you can start with a 10-minute yoga practice for beginners by Yoga With Adriene on YouTube2. This practice is perfect for the absolute complete beginner or someone just wanting to go back and add subtle body connection and alignment for a sustainable practice that supports harmonious whole health.</p> 
+       <div class="mt-5">
+        <a href="#" class="primary-link">Launch Yoga App</a>
+       </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+        <h2>Weather App</h2>
+       <p>You can check the weather forecast on various websites and apps. Some of the most popular ones include AccuWeather1, The Weather Channel2, and Weather Forecast3. These websites and apps provide detailed weather forecasts over a 12-day period updated four times a day. You can also customize interactive weather maps to show forecasts of temperature, weather, and wind3.</p> 
+       <div class="mt-5">
+        <a href="#" class="primary-link">Launch Weather App</a>
+       </div>
+       </div>
+    <div class="col-md-6">
+        <img src="https://31ukq.codesandbox.io/images/weather.png" class="img-fluid" alt="">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-6">
+        <img src="https://31ukq.codesandbox.io/images/yogurt.png" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-6">
+        <h2>Yogurt App</h2>
+       <p>Yogurt is a dairy product made by fermenting milk with a bacterial yogurt culture. It provides protein and calcium, and it may enhance healthy probiotic gut bacteria. Health benefits range from protecting against osteoporosis to relieving irritable bowel disease and aiding digestion1. Yogurt can be a tasty, nutritious addition to any diet. However, there are plenty of different yogurts, and some are more healthful than others1.</p> 
+       <div class="mt-5">
+        <a href="#" class="primary-link">Launch Yogurt App</a>
+       </div>
+    </div>
+    </div>
+        
  </div>
     
 </body>

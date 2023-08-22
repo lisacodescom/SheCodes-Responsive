@@ -8,6 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <style>
+    :root {
+    --primary-color: #6c63ff;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+a:-webkit-any-link {
+    cursor: pointer;
+}
     a{
         text-align: center;
         display: block;
@@ -64,9 +72,9 @@ p {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="https://www.shecodes.io/students">About me</a>
-        <a class="nav-link" href="https://www.shecodes.io/workshops">Contact me</a>
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About me</a>
+        <a class="nav-link" href="#mail">Contact me</a>
       </div>
     </div>
   </div>
@@ -84,6 +92,6 @@ p {
 <div class="email">
     <h1>Contact Me</h1>
     </div>
-<a class="mail" href="mailto:alisalove896@gmail.com">alisalove896@gmail.com</a>
+<a class="mail" id="mail" href="mailto:alisalove896@gmail.com">alisalove896@gmail.com</a>
 </body>
 </html>
